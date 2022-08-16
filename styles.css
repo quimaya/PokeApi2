@@ -1,0 +1,76 @@
+#pokemon-container {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: rgba(148, 233, 250, 0.068);
+}
+
+.container2 { 
+display: flex;
+flex-direction: column;
+border:3px;
+border-style: double;
+width: 250px;
+background-color: antiquewhite
+
+};
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-style: double;
+
+    };
+
+.header {
+    width: 100%;
+    background-image: "C:\Bootcamp Julio 2022\projects\PokeAPI\assets\thumb-1920-662178.png";
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    border-style:dashed;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+span {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(238, 130, 238, 0.534);
+    border-style: groove;
+
+}
+
+
+
+.imagen {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    margin-left: 70px;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
